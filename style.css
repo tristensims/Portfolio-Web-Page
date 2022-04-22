@@ -1,0 +1,114 @@
+/* code to effect the header and footer */
+header, footer{
+    text-align: center;
+    background-color: #312627;
+    padding: 1px;
+    font-size: larger;
+    color: #D3C5C5;
+    font-family: "Courier New";
+}
+/* header specific border*/
+header{
+    border-bottom: 5px solid black;
+}
+/* footer specific border*/
+footer{
+    border-top:5px solid black;
+}
+
+/*code to adjust the image */
+img{
+    width: 300px;
+    margin: 25px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+body{
+    background-color: #D3C5C5;
+    margin: auto;
+    
+}
+/* code to make sure the paragraphs are correct with the rest of the page */
+p{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* to give my thematic breaks a more appealing look*/
+hr {
+    height: 4px;
+    background-color: #C7ADA2; 
+    border: 1px solid black;
+        /* size style color */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+
+section {
+      width: 550px;
+      border: 1px transparent ;
+      padding: 25px;
+}
+
+.bigFont li{
+    font-size:20px;
+    }
+/* to center the text only*/
+.text-center{
+    text-align: center;
+    margin: auto;
+}
+/* to change the size of specific text*/
+.text-size{
+    font-size: medium;
+}
+/* used this to center the image and other things that arent text*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* to change the font family and color without changing some of the other text*/
+.text-color-font{
+    color: #312627;
+    font-family: "Verdana";
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #312627;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(185, 149, 149);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(107, 91, 91);
+  }
+/*unvisited link*/
+a:link{
+      color: #2E2F2F;
+}
+/*visited link*/
+a:visited {
+    color: #051014;
+}
+/* mouse over think */
+a:hover {
+    color: #a3ffba;
+}
+/* selected link*/
+a:active {
+    color: #fc7474;
+}
